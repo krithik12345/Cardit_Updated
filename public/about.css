@@ -1,0 +1,9 @@
+body {
+    text-align: center;
+    margin: auto;
+}
+
+#loginSection {
+    width: 60%;
+    margin-top: 40px;
+}

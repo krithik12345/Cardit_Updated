@@ -22,11 +22,13 @@ const Loginschema = new mongoose.Schema({
         type: String,
         required: true
     },
-    savedCards: {
-            author: String,
-            tag: String,
-            content: String 
-    }
+    savedCards: [
+        {
+            author: { type: String, required: true },
+            tag: { type: String, required: true },
+            content: { type: String, required: true }
+        }
+    ]
 });
 
 // Create the collection for users

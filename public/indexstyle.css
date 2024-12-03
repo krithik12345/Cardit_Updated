@@ -31,6 +31,20 @@
 #CardDashboard > li .delete-btn:hover {
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
 }
+@keyframes backgroundChange {
+    0% { background-color: #ffebcd; } /* Blanched Almond */
+    14% { background-color: #ffe4e1; } /* Misty Rose */
+    28% { background-color: #e6e6fa; } /* Lavender */
+    42% { background-color: #f0e68c; } /* Khaki */
+    57% { background-color: #add8e6; } /* Light Blue */
+    71% { background-color: #90ee90; } /* Light Green */
+    85% { background-color: #ffcccb; } /* Light Coral */
+    100% { background-color: #ffebcd; } /* Blanched Almond */
+}
+
+body {
+    animation: backgroundChange 15s infinite; /* Change duration as needed */
+}
 
 body {
     text-align: center;

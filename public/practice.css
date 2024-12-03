@@ -7,6 +7,17 @@ body {
     width: 60%;
     margin-top: 40px;
 }
+
+#move {
+    margin-top: -2%;
+}
+
+/* New CSS for the Ready button */
+.btn-ready {
+    padding: 20px 40px;
+    font-size: 1.5rem;
+    border-radius: 8px;
+}
 @keyframes backgroundChange {
     0% { background-color: #ffebcd; } /* Blanched Almond */
     14% { background-color: #ffe4e1; } /* Misty Rose */
